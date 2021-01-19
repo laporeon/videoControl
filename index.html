@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Video Controls | JS</title>
+</head>
+<body>
+    <main class="container">
+        <div class="content">
+            <h2>Naruto ⛩ Lofi / Chill Trap / Hip Hop Mix ⛩ Anime Music Mix ナルト</h2>
+            <video id="video" src="video.mp4"></video>
+            <div class="video-controls">
+                <img src="./assets/rewind.svg" alt="Voltar 10s" onclick="rewind()">
+                <img src="./assets/decrease.svg" alt="Diminuir velocidade" onclick="decrease()">
+                <img src="./assets/play.svg" alt="Play" onclick="play()">
+                <img src="./assets/increase.svg" alt="Aumentar velocidade" onclick="increase()" >
+                <img src="./assets/forward.svg" alt="Avançar 10s" onclick="forward()">
+                <img src="./assets/pause.svg" alt="Pausar" onclick="pause()">
+                <img src="./assets/stop.svg" alt="Parar" onclick="stop()">
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
